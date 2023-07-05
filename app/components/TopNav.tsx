@@ -26,9 +26,11 @@ function TopNav() {
   }, []);
 
   return (
-    <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s] mt-5 ">
+    <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s]
+    shadow-[1px_1px_5px_rgba(8,3,3,0.11)]"
+    >
       <div
-        className={`${classes.topMenu} isScrolled? "bg-[#ffffff5e] dark:bg-[#faf8f81e]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5 "`}
+        className={`${classes.topMenu} ${isScrolled ? classes.scrolled : ""}`}
       >
         <ul className="h-[35px] flex align-middle">
           <li>
