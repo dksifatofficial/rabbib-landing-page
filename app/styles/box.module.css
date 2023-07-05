@@ -1,0 +1,29 @@
+.text {
+  @apply absolute z-[2] flex flex-col justify-center items-center w-[346px] h-[346px] px-10 py-[50px] rounded-lg inset-0.5;
+}
+.text h2 {
+  @apply text-white mt-2.5;
+}
+.text p {
+  @apply text-justify text-white mt-5;
+}
+.box {
+  @apply w-[350px] h-[350px] text-center flex justify-center items-center relative overflow-hidden rounded-lg before:content-[""] before:z-[1] before:absolute before:w-[350px] before:h-[350px] before:origin-bottom-right before:animate-[animate_6s_linear_infinite] before:-left-2/4 before:-top-2/4 after:content-[""] after:z-[1] after:absolute after:w-[350px] after:h-[350px] after:origin-bottom-right after:animate-[animate_6s_linear_infinite] after:-left-2/4 after:-top-2/4;
+  background: #000;
+}
+.box::before {
+  background: linear-gradient(0deg, transparent, #58d797, #58d797);
+}
+.box::after {
+  background: linear-gradient(0deg, transparent, #58d797, #58d797);
+  animation-delay: -3s;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
