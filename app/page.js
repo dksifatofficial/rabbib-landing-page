@@ -5,8 +5,6 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 import TopContainer from "./components/TopContainer";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import Image from "next/image";
-import image from "./assets/image/client3.jpg";
 
 export default function Home() {
   return (
