@@ -1,0 +1,18 @@
+.container {
+  @apply w-full;
+}
+.img {
+  @apply w-full h-[300px] overflow-hidden rounded-[10px];
+}
+.img img {
+  @apply w-full h-auto mt-[-100px];
+}
+.container h4 {
+  @apply mt-10 text-[#000];
+}
+.container h6 {
+  @apply text-[#000] font-semibold uppercase text-xl py-[20px];
+}
+.container p {
+  @apply text-[17px] text-[#333];
+}

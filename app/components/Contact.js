@@ -38,6 +38,7 @@ function Contact() {
           <div className={styles.text}>
             <h3>Email</h3>
             <p className={styles.contactEmail}>a@aminulkibria.com</p>
+            <p className={styles.contactEmail}>aminulkibria@gmail.com</p>
           </div>
         </div>
 
@@ -48,6 +49,7 @@ function Contact() {
           <div className={styles.text}>
             <h3>Phone</h3>
             <p>+880 1722 020182</p>
+            <p>+880 1993 383387</p>
           </div>
         </div>
       </div>
