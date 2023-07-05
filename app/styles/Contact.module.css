@@ -1,0 +1,22 @@
+.span {
+  @apply relative grid justify-items-center px-[50px] py-[30px]
+  rounded-[10px] bg-[#2d2e2d] w-[350px] hover:bg-[#444644];
+}
+.logoSection {
+  @apply w-[90px] h-[90px] relative rounded-[50%] bg-[#000];
+}
+.logo {
+  @apply absolute -translate-x-2/4 -translate-y-2/4 text-lg left-2/4 top-2/4;
+}
+.text {
+  @apply grid justify-items-center mt-[20px];
+}
+.text h3 {
+  @apply text-[#fff] text-xl text-center mb-[10px];
+}
+.text p {
+    @apply text-[#c2bfbf] text-center;
+  }
+.contactEmail:hover {
+  @apply text-[#f75023] cursor-pointer;
+}

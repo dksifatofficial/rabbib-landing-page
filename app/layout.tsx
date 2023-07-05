@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Footer from "./components/Footer";
 import TopNav from "./components/TopNav";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${"bg-[#000]"}`}>
         <TopNav />
         {children}
+        <Footer />
       </body>
     </html>
   );

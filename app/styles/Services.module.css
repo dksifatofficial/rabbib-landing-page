@@ -1,0 +1,28 @@
+.container {
+    @apply w-full h-auto flex flex-wrap justify-center gap-y-10 gap-x-10 px-16 py-8 lg:px-16 lg:py-20;
+  }
+  .container .firstBox {
+    @apply h-auto w-[675px] overflow-hidden float-left transition-[0.5s] shadow-[0px_1px_8px_rgb(196,221,199)] rounded-[10px];
+  }
+  .boxHeader {
+    @apply absolute w-[590px] ml-10 left-0 top-20;
+  }
+  .boxHeader h6 {
+    @apply w-full text-white uppercase leading-8 text-[15px] font-[bold] text-left;
+  }
+  .boxHeader p {
+    @apply w-full text-white leading-[42px] text-3xl font-[bold] text-left;
+  }
+  .section2 h5 {
+    @apply text-base font-semibold text-white;
+  }
+  .section2 {
+    @apply w-full h-[50px] flex items-center justify-between absolute mt-[30px] px-10 left-0 bottom-5;
+  }
+  .section {
+    @apply w-full h-[50px] flex items-center justify-between mt-[30px] px-[30px];
+  }
+  .date {
+    @apply text-xs font-semibold text-[rgb(92,90,90)];
+  }
+  

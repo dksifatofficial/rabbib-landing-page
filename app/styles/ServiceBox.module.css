@@ -1,0 +1,19 @@
+.box {
+    @apply h-auto w-[375px] overflow-hidden float-left transition-[0.5s] 
+     rounded-[10px] bg-white
+    hover:shadow-[0px_7px_15px_#444644] hover:translate-x-0 hover:translate-y-[-3px];
+    /* height: 420px; */
+  }
+  .box img {
+    @apply w-full h-[220px];
+  }
+  .box h2 {
+    @apply font-bold w-full text-lg text-[#000] uppercase leading-8 
+    text-left mb-0 pl-[30px] pr-5 pt-2.5 pb-0;
+  }
+  .box p {
+    @apply text-[#464545] text-[17px] leading-8 font-[bold] text-left px-[30px];
+  }
+  .box h4 {
+    @apply leading-8 font-serif font-semibold text-[#000] px-[30px] pb-[10px];
+  }

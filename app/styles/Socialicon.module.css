@@ -1,0 +1,7 @@
+.icons {
+    @apply w-full flex justify-between items-center;
+  }
+  .icons a {
+    @apply grid items-center;
+  }
+  
