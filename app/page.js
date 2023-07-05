@@ -18,8 +18,7 @@ export default function Home() {
       <FloatingWhatsApp
           phoneNumber="+8801993383387"
           accountName="DK Sifat"
-          avatar= {image}
-          statusMessage = 'Typically replies within 1 hour'
+          statusMessage = 'Typically replies within 5 min'
         />
     </main>
   );
