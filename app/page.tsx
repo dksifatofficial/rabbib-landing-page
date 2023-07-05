@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main>
       <TopContainer />
-      <AboutUs />
       <Services />
+      <AboutUs />
       <Contact />
     </main>
   );

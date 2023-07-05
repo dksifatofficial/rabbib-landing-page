@@ -37,10 +37,10 @@ function TopNav() {
             <Link href="#banner">Home</Link>
           </li>
           <li>
-            <Link href="#aboutMe">About</Link>
+            <Link href="#services">Service</Link>
           </li>
           <li>
-            <Link href="#services">Service</Link>
+            <Link href="#aboutMe">About</Link>
           </li>
           <li>
             <Link href="#contact">Contact</Link>
