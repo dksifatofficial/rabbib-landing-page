@@ -1,24 +1,13 @@
-.container {
-  @apply flex flex-wrap bg-blue-400 w-full justify-center py-10;
-}
 .tags {
   @apply flex-[100%] flex flex-wrap no-underline justify-center;
 }
 .tags a {
-  @apply flex flex-wrap items-center text-[15px] text-[white] px-2.5 py-[5px] rounded-[5px] hover:bg-blue-700;
+  @apply  font-semibold text-[#fff] flex flex-wrap items-center 
+  text-[15px] px-2.5 py-[5px] rounded-[5px] hover:bg-blue-700;
 }
 .icons {
   @apply flex flex-wrap bg-transparent justify-center px-2.5 py-[5px];
 }
 .icons a {
   @apply text-white text-xl w-8 h-8 hover:text-[#b4b2b2];
-}
-.textur {
-  @apply w-full text-center px-2.5 py-[5px];
-}
-.textur h4 {
-  @apply text-[white];
-}
-.textur h4 a {
-  @apply text-[#b4b2b2] hover:underline;
 }

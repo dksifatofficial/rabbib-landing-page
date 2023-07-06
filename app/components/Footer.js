@@ -4,7 +4,7 @@ import Socialicon from "./Socialicon";
 
 function Footer() {
   return (
-    <div className={classes.container}>
+    <div className="flex flex-wrap bg-blue-400 w-full justify-center py-10">
       <div className={classes.tags}>
         <Link href="#home">Home</Link>
         <Link href="#aboutMe">About</Link>
@@ -14,15 +14,17 @@ function Footer() {
       <div className={classes.icons}>
         <Socialicon />
       </div>
-      <div className={classes.textur}>
-        <h4>
-          Rain Tree © 2023 . Published with{" "}
-          <Link href="#" style={{ color: "white" }}>
+      <div className="w-full text-center px-2.5 py-[5px]">
+        <h4 className=" font-semibold text-[#fff]">
+          Rain Tree © 2023 . Compile by
+          <Link className=" hover:text-[#acabab]" href="https://www.aminulkibria.com" target="_blank">
             {" "}
-            StarLink
+            Aminul Kibria
           </Link>
         </h4>
-        <h4>JavaScript license information</h4>
+        <h4 className=" font-semibold text-[#fff]">
+          The website is build with <span className="underline">NEXT-JS</span>
+        </h4>
       </div>
     </div>
   );

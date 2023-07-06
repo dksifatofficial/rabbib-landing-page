@@ -35,6 +35,6 @@
     "app/components/Contact.js",
     "app/page.js",
     "app/components/AboutUs.js"
-  ],
+, "app/components/TopContainer.js", "app/components/TopNav.js"  ],
   "exclude": ["node_modules"]
 }
