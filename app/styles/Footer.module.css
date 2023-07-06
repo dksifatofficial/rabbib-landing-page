@@ -2,7 +2,7 @@
   @apply flex-[100%] flex flex-wrap no-underline justify-center;
 }
 .tags a {
-  @apply  font-semibold text-[#fff] flex flex-wrap items-center 
+  @apply font-semibold text-[#fff] flex flex-wrap items-center 
   text-[15px] px-2.5 py-[5px] rounded-[5px] hover:bg-blue-700;
 }
 .icons {

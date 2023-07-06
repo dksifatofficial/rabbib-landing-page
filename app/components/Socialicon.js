@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import classes from "../styles/Socialicon.module.css";
 
-function Socialicon({className, ...rest}) {
+function Socialicon({ className, ...rest }) {
   return (
     <div className={classes.icons} {...rest}>
       <Link

@@ -26,7 +26,8 @@ function TopNav() {
   }, []);
 
   return (
-    <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s]
+    <div
+      className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s]
     shadow-[1px_1px_5px_rgba(8,3,3,0.11)]"
     >
       <div

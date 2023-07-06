@@ -1,8 +1,8 @@
+import Image from "next/image";
 import { FaHandHoldingHeart, FaHandshake, FaList } from "react-icons/fa";
+import image from "../assets/image/bubbles_02.jpg";
 import Box from "./Box";
 import Header from "./Header";
-import image from '../assets/image/bubbles_02.jpg'
-import Image from "next/image";
 
 function AboutUs() {
   return (
@@ -12,10 +12,10 @@ function AboutUs() {
        lg:h-[380px] lg:bg-transparent"
       >
         <Image
-      className="absolute w-[100%] h-[100%] left-0 top-0 overflow-hidden rounded-[10px]"
-      src={image}
-      alt='heropic'
-      />
+          className="absolute w-[100%] h-[100%] left-0 top-0 overflow-hidden rounded-[10px]"
+          src={image}
+          alt="heropic"
+        />
         <Header className=" mb-[30px] ">
           <h2 className="lg:hidden">About Us</h2>
         </Header>

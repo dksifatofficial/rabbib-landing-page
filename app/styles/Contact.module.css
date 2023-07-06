@@ -15,8 +15,8 @@
   @apply text-[#000] text-xl text-center mb-[10px];
 }
 .text p {
-    @apply text-[#333232] text-center;
-  }
+  @apply text-[#333232] text-center;
+}
 .contactEmail:hover {
   @apply text-[#f75023] cursor-pointer;
 }

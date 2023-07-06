@@ -27,14 +27,14 @@ function Service() {
         <h2>Our Secvices</h2>
       </Header>
 
-      <div className="w-full h-auto flex flex-wrap justify-center 
-      gap-y-10 gap-x-10 px-[20px] py-8 lg:px-16 lg:py-20">
+      <div
+        className="w-full h-auto flex flex-wrap justify-center 
+      gap-y-10 gap-x-10 px-[20px] py-8 lg:px-16 lg:py-20"
+      >
         <ServiceBox onClick={() => handlePopupToggle(<PopupBlog1 />)}>
           <Image src={image1} alt="food" width="300" height="200" />
           <h2>Premium subscriptions</h2>
-          <p>
-          LinkedIn Sales Navigator Premium subscriptions
-          </p>
+          <p>LinkedIn Sales Navigator Premium subscriptions</p>
           <h4 className="text-white">Price $100</h4>
         </ServiceBox>
 

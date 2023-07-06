@@ -17,7 +17,11 @@ function Footer() {
       <div className="w-full text-center px-2.5 py-[5px]">
         <h4 className=" font-semibold text-[#fff]">
           Rain Tree © 2023 . Compile by
-          <Link className=" hover:text-[#acabab]" href="https://www.aminulkibria.com" target="_blank">
+          <Link
+            className=" hover:text-[#acabab]"
+            href="https://www.aminulkibria.com"
+            target="_blank"
+          >
             {" "}
             Aminul Kibria
           </Link>

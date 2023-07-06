@@ -1,6 +1,6 @@
-import { FaLocationArrow, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaLocationArrow, FaPhone } from "react-icons/fa";
 import styles from "../styles/Contact.module.css";
-import Header from './Header'
+import Header from "./Header";
 
 function Contact() {
   return (
@@ -13,19 +13,13 @@ function Contact() {
       </Header>
 
       <div className="w-full h-auto flex flex-wrap justify-center gap-y-10 gap-x-10 px-16 py-8 lg:px-16 lg:py-20">
-        <div
-          className={styles.span}
-        >
+        <div className={styles.span}>
           <div className={styles.logoSection}>
             <FaLocationArrow className={styles.logo} color="#4144f7" />
           </div>
           <div className={styles.text}>
-            <h3>
-              Address
-            </h3>
-            <p>
-              Shaheen Monjil, BSCIC road, Barishal, Bangladesh
-            </p>
+            <h3>Address</h3>
+            <p>Shaheen Monjil, BSCIC road, Barishal, Bangladesh</p>
           </div>
         </div>
 
