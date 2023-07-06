@@ -19,7 +19,7 @@ function Service() {
 
   return (
     <div
-      className="w-full h-auto grid justify-items-center pt-[100px]"
+      className="w-full h-auto flex flex-wrap justify-items-center pt-[100px]"
       id="services"
     >
       <h1
