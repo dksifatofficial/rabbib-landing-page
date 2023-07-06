@@ -4,12 +4,12 @@ import Box from "../components/Box";
 function AboutUs() {
   return (
     <div className="w-full h-auto mt-[100px]" id="aboutMe">
-      <div className=" mx-[10px] h-[280px] mb-[20px] rounded-[10px] bg-[#2d2e2d] flex justify-center 
-      lg:h-[380px] lg:mx-[50px] lg:mb-0">
+      <div className=" w-full mx-[10px] h-[280px] mb-[20px] rounded-[10px] bg-[#000] grid justify-items-center 
+      lg:h-[380px] lg:mx-[50px] lg:mb-0 lg:bg-[#2d2e2d] lg:w-auto">
         <h1
-          className=" absolute px-[10px] py-[10px] rounded-[10px] text-4xl font-semibold 
-         mt-[90px] bg-black text-white
-          lg:px-[100px]"
+          className="px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold 
+         mt-[90px] bg-[#fff] text-[#000]
+          lg:px-[100px] lg:bg-black lg:text-white lg:absolute"
         >
           About Us
         </h1>
