@@ -14,7 +14,7 @@ function Contact() {
         Contact Us
       </h1>
 
-      <div className="mt-[50px] flex justify-around w-full px-[50px]">
+      <div className="w-full h-auto flex flex-wrap justify-center gap-y-10 gap-x-10 px-16 py-8 lg:px-16 lg:py-20">
         <div
           className={styles.span}
         >
