@@ -7,15 +7,15 @@ function AboutUs() {
     <div className="w-full h-auto mt-[100px]" id="aboutMe">
       <div className=" mx-[50px] h-auto rounded-[10px] bg-[#000] flex justify-center
        lg:h-[380px] lg:bg-[#2d2e2d]">
-        <Header className=" mb-[30px] lg:h-auto">
-          <h2 className=" lg:h-auto">About Us</h2>
+        <Header className=" mb-[30px] ">
+          <h2 className="lg:hidden">About Us</h2>
         </Header>
-        {/* <h1
+        <h1
           className=" hidden absolute px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold 
          mt-[90px] bg-black text-white lg:block"
         >
           About Us
-        </h1> */}
+        </h1>
       </div>
       <div className="w-full h-auto bg-black flex justify-center">
         <div className="w-[90%] h-auto bg-transparent flex flex-wrap justify-center 
