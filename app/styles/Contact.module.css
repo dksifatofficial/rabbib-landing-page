@@ -1,5 +1,5 @@
 .span {
-  @apply relative grid justify-items-center px-[50px] py-[30px]
+  @apply relative grid justify-items-center px-[10px] py-[30px]
   rounded-[10px] bg-[#2d2e2d] w-[350px] hover:bg-[#444644];
 }
 .logoSection {

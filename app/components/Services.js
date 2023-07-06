@@ -27,7 +27,8 @@ function Service() {
         <h2>Our Secvices</h2>
       </Header>
 
-      <div className="w-full h-auto flex flex-wrap justify-center gap-y-10 gap-x-10 px-[10px] py-8 lg:px-16 lg:py-20">
+      <div className="w-full h-auto flex flex-wrap justify-center 
+      gap-y-10 gap-x-10 px-[20px] py-8 lg:px-16 lg:py-20">
         <ServiceBox onClick={() => handlePopupToggle(<PopupBlog1 />)}>
           <Image src={image1} alt="food" width="300" height="200" />
           <h2>Service Name</h2>
