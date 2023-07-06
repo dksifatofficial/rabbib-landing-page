@@ -1,6 +1,6 @@
+import Image from "next/image";
 import image1 from "../assets/image/4.jpg";
 import classes from "../styles/PopupBlogs.module.css";
-import Image from "next/image";
 
 export function PopupBlog1() {
   return (
@@ -8,28 +8,52 @@ export function PopupBlog1() {
       <div className={classes.img}>
         <Image src={image1} alt="" />
       </div>
-      <h4>
-      Service short details: Lorem ipsum dolor sit amet consectetur adipisicing elit
-      </h4>
-      <h6>Service name</h6>
+      <h4>LinkedIn Sales Navigator Premium subscriptions</h4>
+      <h6>Sales Navigator</h6>
       <p>
-        As a highly skilled and experienced Web developer with five years in the
-        industry, I possess a deep understanding of web technologies and a
-        proven track record of creating robust, user-friendly, and visually
-        appealing websites.
+        Active your old linkedin sales navigator need only email for 1-2-3
+        month.
         <br />
         <br />
-        My expertise lies in front-end development, where I excel in HTML, CSS,
-        and JavaScript frameworks such as React and Next js. I am adept at
-        transforming design concepts into fully functional websites, ensuring
-        seamless responsiveness across different devices.
+        Unlock the full potential of LinkedIn Sales Navigator and
+        revolutionize your sales and networking strategies! With my gig, you&apos;ll
+        gain exclusive access to the advanced features and benefits of
+        LinkedIn&apos;s premium tool, driving your business towards remarkable
+        growth.
         <br />
         <br />
-        With a keen eye for detail and a strong focus on user experience, I
-        strive to deliver clean, efficient, and scalable code. My strong
-        problem-solving abilities and excellent communication skills allow me to
-        collaborate effectively with cross-functional teams to deliver
-        exceptional web solutions.
+        By ordering my gig, you&apos;ll receive an active 1-2-3month license
+        for LinkedIn Sales Navigator.
+        <br />
+        <br />
+        Harness the Benefits:
+        <br />
+        <br />
+        Advanced Lead Filters: Target the most qualified prospects using advanced filters such
+        as industry, company size, and job title.
+        <br />
+        <br />
+        Premium Badge: Showcase your
+        professionalism and credibility with the LinkedIn Sales Navigator
+        Premium badge.
+        <br />
+        <br />
+        Unlimited LinkedIn Searching: Break free from search
+        limitations and explore LinkedIn limitlessly.
+        <br />
+        <br />
+        Profile Viewing: Unlock a treasure trove of insights by gaining access to LinkedIn profiles
+        outside your network.
+        <br />
+        <br />
+        InMail and Messaging: Seamlessly engage with
+        prospects through InMail, a powerful feature available with LinkedIn
+        Premium.
+        <br />
+        <br />
+        Ready to unlock the full potential of LinkedIn Sales Navigator?
+        Contact me now with any questions, and let&apos;s propel your business to
+        unprecedented success!
       </p>
     </div>
   );
@@ -40,30 +64,53 @@ export function PopupBlog2() {
     <div className={classes.container}>
       <div className={classes.img}>
         <Image src={image1} alt="img" />
-      </div>
-      <h4>
-        Experienced Branding Expert: Crafting Powerful Identities for Lasting
-        Impressions
-      </h4>
-      <h6>Branding</h6>
+        </div>
+      <h4>LinkedIn Sales Navigator Premium subscriptions</h4>
+      <h6>Sales Navigator</h6>
       <p>
-        As a seasoned branding expert with five years of experience, I possess a
-        deep understanding of the intricacies involved in building and enhancing
-        brand identities. I have successfully developed and implemented
-        comprehensive branding strategies for diverse clients, ensuring their
-        unique value propositions resonate with target audiences.
+        Active your old linkedin sales navigator need only email for 1-2-3
+        month.
         <br />
         <br />
-        With a keen eye for aesthetics and a strong grasp of market trends, I
-        excel in creating visually captivating brand assets, including logos,
-        color palettes, and typography. Additionally, my expertise extends to
-        crafting compelling brand narratives and messaging that effectively
-        communicate client&apos;s stories and values.
+        Unlock the full potential of LinkedIn Sales Navigator and
+        revolutionize your sales and networking strategies! With my gig, you&apos;ll
+        gain exclusive access to the advanced features and benefits of
+        LinkedIn&apos;s premium tool, driving your business towards remarkable
+        growth.
         <br />
         <br />
-        Through meticulous research, analysis, and strategic planning, I have
-        consistently helped businesses establish strong brand presence and
-        achieve long-term growth.
+        By ordering my gig, you&apos;ll receive an active 1-2-3month license
+        for LinkedIn Sales Navigator.
+        <br />
+        <br />
+        Harness the Benefits:
+        <br />
+        <br />
+        Advanced Lead Filters: Target the most qualified prospects using advanced filters such
+        as industry, company size, and job title.
+        <br />
+        <br />
+        Premium Badge: Showcase your
+        professionalism and credibility with the LinkedIn Sales Navigator
+        Premium badge.
+        <br />
+        <br />
+        Unlimited LinkedIn Searching: Break free from search
+        limitations and explore LinkedIn limitlessly.
+        <br />
+        <br />
+        Profile Viewing: Unlock a treasure trove of insights by gaining access to LinkedIn profiles
+        outside your network.
+        <br />
+        <br />
+        InMail and Messaging: Seamlessly engage with
+        prospects through InMail, a powerful feature available with LinkedIn
+        Premium.
+        <br />
+        <br />
+        Ready to unlock the full potential of LinkedIn Sales Navigator?
+        Contact me now with any questions, and let&apos;s propel your business to
+        unprecedented success!
       </p>
     </div>
   );
@@ -74,32 +121,53 @@ export function PopupBlog3() {
     <div className={classes.container}>
       <div className={classes.img}>
         <Image src={image1} alt="img" />
-      </div>
-      <h4>
-        Experienced Social Media Expert: Driving Engagement and Results Through
-        Strategies
-      </h4>
-      <h6>Social Media</h6>
+        </div>
+      <h4>LinkedIn Sales Navigator Premium subscriptions</h4>
+      <h6>Sales Navigator</h6>
       <p>
-        As a seasoned Social Media expert with five years of experience, I bring
-        a wealth of knowledge and expertise in leveraging various social
-        platforms to drive engagement, reach, and conversions.
+        Active your old linkedin sales navigator need only email for 1-2-3
+        month.
         <br />
         <br />
-        I have successfully developed and executed comprehensive social media
-        strategies for diverse brands, harnessing the power of platforms like
-        Facebook, Instagram, Twitter, and LinkedIn. With a keen understanding of
-        target audience behavior and emerging trends, I excel in creating
-        compelling content, managing social media campaigns, and analyzing
-        performance metrics to optimize results.
+        Unlock the full potential of LinkedIn Sales Navigator and
+        revolutionize your sales and networking strategies! With my gig, you&apos;ll
+        gain exclusive access to the advanced features and benefits of
+        LinkedIn&apos;s premium tool, driving your business towards remarkable
+        growth.
         <br />
         <br />
-        Additionally, I have a strong grasp of social media advertising,
-        influencer partnerships, and community management, enabling me to build
-        and nurture brand communities effectively. Through my strategic approach
-        and continuous monitoring, I have consistently helped brands establish a
-        strong social media presence and drive meaningful connections with their
-        audiences.
+        By ordering my gig, you&apos;ll receive an active 1-2-3month license
+        for LinkedIn Sales Navigator.
+        <br />
+        <br />
+        Harness the Benefits:
+        <br />
+        <br />
+        Advanced Lead Filters: Target the most qualified prospects using advanced filters such
+        as industry, company size, and job title.
+        <br />
+        <br />
+        Premium Badge: Showcase your
+        professionalism and credibility with the LinkedIn Sales Navigator
+        Premium badge.
+        <br />
+        <br />
+        Unlimited LinkedIn Searching: Break free from search
+        limitations and explore LinkedIn limitlessly.
+        <br />
+        <br />
+        Profile Viewing: Unlock a treasure trove of insights by gaining access to LinkedIn profiles
+        outside your network.
+        <br />
+        <br />
+        InMail and Messaging: Seamlessly engage with
+        prospects through InMail, a powerful feature available with LinkedIn
+        Premium.
+        <br />
+        <br />
+        Ready to unlock the full potential of LinkedIn Sales Navigator?
+        Contact me now with any questions, and let&apos;s propel your business to
+        unprecedented success!
       </p>
     </div>
   );

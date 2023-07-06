@@ -1,31 +1,31 @@
 import { FaHandHoldingHeart, FaHandshake, FaList } from "react-icons/fa";
-import Box from "../components/Box";
+import Box from "./Box";
 import Header from "./Header";
 
 function AboutUs() {
   return (
     <div className="w-full h-auto mt-[100px]" id="aboutMe">
       <div
-        className=" mx-[71px] h-auto rounded-[10px] bg-[#000] flex justify-center 
-       lg:h-[380px] lg:bg-[#2d2e2d]"
+        className=" mx-[71px] h-auto rounded-[10px] bg-[#fff] flex justify-center 
+       lg:h-[380px] lg:bg-purple-200"
       >
         <Header className=" mb-[30px] ">
           <h2 className="lg:hidden">About Us</h2>
         </Header>
         <h1
           className=" hidden absolute px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold 
-         mt-[90px] bg-black text-white lg:block"
+         mt-[90px] bg-[#fff] text-[#000] lg:block"
         >
           About Us
         </h1>
       </div>
-      <div className="w-full h-auto bg-black flex justify-center">
+      <div className="w-full h-auto bg-[#fff] flex justify-center">
         <div
           className="w-full h-auto bg-transparent flex flex-wrap justify-center
          gap-y-5 gap-x-5 mb-20 px-[20px]
         lg:mt-[-150px] lg:mb-[120px] lg:w-[90%]"
         >
-          <Box className="bg-[#2d2e2d] hover:bg-[#444644]">
+          <Box>
             <div>
               <FaHandshake className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
             </div>
@@ -38,7 +38,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box className="bg-[#2d2e2d] hover:bg-[#444644]">
+          <Box>
             <div>
               <FaList className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
             </div>
@@ -51,7 +51,7 @@ function AboutUs() {
             </p>
           </Box>
 
-          <Box className="bg-[#2d2e2d] hover:bg-[#444644]">
+          <Box>
             <div>
               <FaHandHoldingHeart className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
             </div>

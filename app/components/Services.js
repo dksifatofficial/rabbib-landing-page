@@ -31,10 +31,9 @@ function Service() {
       gap-y-10 gap-x-10 px-[20px] py-8 lg:px-16 lg:py-20">
         <ServiceBox onClick={() => handlePopupToggle(<PopupBlog1 />)}>
           <Image src={image1} alt="food" width="300" height="200" />
-          <h2>Service Name</h2>
+          <h2>Premium subscriptions</h2>
           <p>
-            Service short details: Lorem ipsum dolor sit amet consectetur
-            adipisicing elit.
+          LinkedIn Sales Navigator Premium subscriptions
           </p>
           <h4 className="text-white">Price $100</h4>
         </ServiceBox>

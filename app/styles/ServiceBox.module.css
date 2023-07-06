@@ -1,6 +1,6 @@
 .box {
     @apply h-auto w-[375px] overflow-hidden float-left transition-[0.5s] 
-     rounded-[10px] bg-white
+     rounded-[10px] bg-white shadow-[0px_1px_8px_rgb(196,221,199)]
     hover:shadow-[0px_7px_15px_#444644] hover:translate-x-0 hover:translate-y-[-3px];
     /* height: 420px; */
   }
@@ -12,7 +12,7 @@
     text-left mb-0 pl-[30px] pr-5 pt-2.5 pb-0;
   }
   .box p {
-    @apply text-[#464545] text-[17px] leading-8 font-[bold] text-left px-[30px];
+    @apply font-bold text-[#ad2c38] text-[17px] leading-8 font-[bold] text-left px-[30px];
   }
   .box h4 {
     @apply leading-8 font-serif font-semibold text-[#000] px-[30px] pb-[10px];
