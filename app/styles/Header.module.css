@@ -1,0 +1,7 @@
+.header {
+  @apply text-center w-full relative grid justify-center;
+}
+.header h2 {
+  @apply text-[40px] not-italic font-semibold text-[#000] bg-[#fff]
+  px-[30px] py-0 rounded-[10px] lg:px-[100px];
+}

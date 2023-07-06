@@ -31,7 +31,10 @@
     "app/components/ServiceBox.js",
     "app/components/Services.js",
     "app/components/Socialicon.js",
-    "app/components/Footer.js"
-, "app/components/Contact.js", "app/page.js"  ],
+    "app/components/Footer.js",
+    "app/components/Contact.js",
+    "app/page.js",
+    "app/components/AboutUs.js"
+  ],
   "exclude": ["node_modules"]
 }

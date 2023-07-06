@@ -1,18 +1,16 @@
 import { FaLocationArrow, FaEnvelope, FaPhone } from "react-icons/fa";
 import styles from "../styles/Contact.module.css";
+import Header from './Header'
 
 function Contact() {
   return (
     <div
-      className="w-full h-auto grid justify-items-center pt-[100px] mb-[100px]"
+      className="w-full h-auto flex flex-wrap justify-center pt-[100px]"
       id="contact"
     >
-      <h1
-        className=" px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold
-      bg-[#fff] text-[000]"
-      >
-        Contact Us
-      </h1>
+      <Header>
+        <h2>Contact Us</h2>
+      </Header>
 
       <div className="w-full h-auto flex flex-wrap justify-center gap-y-10 gap-x-10 px-16 py-8 lg:px-16 lg:py-20">
         <div
