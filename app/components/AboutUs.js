@@ -22,7 +22,7 @@ function AboutUs() {
       <div className="w-full h-auto bg-black flex justify-center">
         <div
           className="w-full h-auto bg-transparent flex flex-wrap justify-center 
-         gap-y-5 gap-x-5 mb-20 px-[10px]
+         gap-y-5 gap-x-5 mb-20 px-[20px]
         lg:mt-[-150px] lg:mb-[120px] lg:w-[90%]"
         >
           <Box className="bg-[#2d2e2d] hover:bg-[#444644]">
