@@ -14,12 +14,12 @@ function AboutUs() {
         </Header>
         <h1
           className=" hidden absolute px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold 
-         mt-[90px] bg-[#fff] text-[#000] lg:block"
+         mt-[90px] bg-[#000] text-[#fff] lg:block"
         >
           About Us
         </h1>
       </div>
-      <div className="w-full h-auto bg-[#fff] flex justify-center">
+      <div className="w-full h-auto bg-[#000] flex justify-center">
         <div
           className="w-full h-auto bg-transparent flex flex-wrap justify-center
          gap-y-5 gap-x-5 mb-20 px-[20px]
@@ -27,7 +27,7 @@ function AboutUs() {
         >
           <Box>
             <div>
-              <FaHandshake className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
+              <FaHandshake className="text-[50px] text-[#fff] bg-[#000] p-2.5 rounded-[100%]" />
             </div>
             <h2 className=" text-2xl">Finance</h2>
             <p>
@@ -40,7 +40,7 @@ function AboutUs() {
 
           <Box>
             <div>
-              <FaList className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
+              <FaList className="text-[50px] text-[#fff] bg-[#000] p-2.5 rounded-[100%]" />
             </div>
             <h2 className=" text-2xl">Web Design</h2>
             <p className="text-black">
@@ -53,7 +53,7 @@ function AboutUs() {
 
           <Box>
             <div>
-              <FaHandHoldingHeart className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
+              <FaHandHoldingHeart className="text-[50px] text-[#fff] bg-[#000] p-2.5 rounded-[100%]" />
             </div>
             <h2 className=" text-2xl">Consulting</h2>
             <p>

@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-wrap bg-blue-500 w-full justify-center py-10;
+  @apply flex flex-wrap bg-blue-400 w-full justify-center py-10;
 }
 .tags {
   @apply flex-[100%] flex flex-wrap no-underline justify-center;

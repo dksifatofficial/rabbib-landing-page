@@ -17,7 +17,7 @@
   before:animate-[animate_6s_linear_infinite] before:-left-2/4 before:-top-2/4 
   after:content-[""] after:z-[1] after:absolute after:w-[350px] after:h-[350px] 
   after:origin-bottom-right after:animate-[animate_6s_linear_infinite] 
-  after:-left-2/4 after:-top-2/4 bg-[#fff];
+  after:-left-2/4 after:-top-2/4 bg-[#000];
 }
 /* .box::before {
   background: linear-gradient(0deg, transparent, #58d797, #58d797);
