@@ -19,11 +19,11 @@ function Service() {
 
   return (
     <div
-      className="w-full h-auto flex flex-wrap justify-items-center pt-[100px]"
+      className="w-full h-auto flex flex-wrap justify-center pt-[100px]"
       id="services"
     >
       <h1
-        className=" px-[100px] py-[10px] rounded-[10px] text-4xl font-semibold
+        className=" px-[100px] py-[10px] text-center rounded-[10px] text-4xl font-semibold
       bg-[#fff] text-[000]"
       >
         Our Secvices
