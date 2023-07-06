@@ -5,8 +5,10 @@ import Header from "./Header";
 function AboutUs() {
   return (
     <div className="w-full h-auto mt-[100px]" id="aboutMe">
-      <div className=" mx-[50px] h-auto rounded-[10px] bg-[#000] flex justify-center
-       lg:h-[380px] lg:bg-[#2d2e2d]">
+      <div
+        className=" mx-[71px] h-auto rounded-[10px] bg-[#000] flex justify-center 
+       lg:h-[380px] lg:bg-[#2d2e2d]"
+      >
         <Header className=" mb-[30px] ">
           <h2 className="lg:hidden">About Us</h2>
         </Header>
@@ -18,8 +20,11 @@ function AboutUs() {
         </h1>
       </div>
       <div className="w-full h-auto bg-black flex justify-center">
-        <div className="w-[90%] h-auto bg-transparent flex flex-wrap justify-center 
-        gap-5 gap-y-5 gap-x-5 mb-20 lg:mt-[-150px] lg:mb-[120px]">
+        <div
+          className="w-[90%] h-auto bg-transparent flex flex-wrap justify-center 
+        gap-5 gap-y-5 gap-x-5 mb-20
+        lg:mt-[-150px] lg:mb-[120px]"
+        >
           <Box className="bg-[#2d2e2d] hover:bg-[#444644]">
             <div>
               <FaHandshake className="text-[50px] text-[#000] bg-white p-2.5 rounded-[100%]" />
